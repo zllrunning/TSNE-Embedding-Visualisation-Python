@@ -31,7 +31,7 @@ def plot_embedding(data, label, title):
     plt.yticks([])
     plt.title(title)
     return fig
-
+# to do : 1. complete demo   2.train from scratch and vis the dynamic changing 
 def main():
     data = '/home/zll/data/face/data/for_tsne_vis'
     model = IR_50([112, 112])
@@ -49,4 +49,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
