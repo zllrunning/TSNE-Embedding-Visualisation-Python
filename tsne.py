@@ -42,7 +42,7 @@ def main():
     t0 = time()
     result = tsne.fit_transform(features)
     fig = plot_embedding(result, labels,
-                         't-SNE embedding of the digits (time %.2fs)'
+                         't-SNE embedding of faces (time %.2fs)'
                          % (time() - t0))
     plt.show(fig)
 
